@@ -1,0 +1,117 @@
+.item {
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    margin: 0 0 .7rem 0;
+    border-radius: 5px;
+    padding: .8rem;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.096);
+    cursor: pointer;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.item__delete {
+    position: absolute;
+    right: 12px;
+}
+
+.item__delete:hover {
+    color: #7d90ca;
+}
+
+.item__delete--completed {
+    color: #7d90ca;
+}
+
+.checkmark--container {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background: rgb(18, 32, 61);
+    background: linear-gradient(180deg, rgba(18, 32, 61, 1) 0%, rgba(23, 41, 87, 1) 35%, rgba(125, 144, 202, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkmark {
+    background-color: var(--white);
+    border-radius: 100%;
+    height: 19px;
+    width: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+}
+
+.checkmark--completed {
+    background-color: #d2d2d3;
+    color: #7d90ca;
+}
+
+.item--completed {
+    background-color: #d2d2d3;
+}
+
+.check {
+    font-size: 11px;
+}
+
+.process {
+    display: none;
+}
+
+.completed {
+    display: block;
+}
+
+.item:hover {
+    background-color: #b4c2e7;
+}
+
+.item__text {
+    font: var(--caption-regular);
+    padding: 0 0 0 .5rem;
+}
+
+.item__text--completed {
+    text-decoration: line-through;
+}
+
+
+.List {
+    /* border: 1px solid red; */
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+.List::-webkit-scrollbar {
+    width: 9px;
+}
+
+.List::-webkit-scrollbar-track {
+    background-color: #f3f2f2;
+    border-radius: 12px;
+}
+
+.List::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background: #dddddd;
+}
+
+.List__item {
+    /* border: 1px solid blue; */
+    padding: 0 .3rem;
+}
+
+.content-s {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}

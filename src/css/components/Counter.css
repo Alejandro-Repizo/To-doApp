@@ -1,0 +1,14 @@
+.Title {
+    text-align: center;
+}
+
+.Title__text {
+    font: var(--headline1);
+    font-size: 2.3rem;
+    color: var(--white);
+}
+
+.Title__subtitle {
+    font: var(--body2-bold);
+    color: var(--dark-blue-900);
+}

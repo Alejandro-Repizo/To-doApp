@@ -1,0 +1,9 @@
+
+
+.content { 
+    display: grid;
+    grid-template-columns:  repeat(2, 400px);
+    /* border: 1px solid red; */
+    gap: 4rem;
+    height: 600px;
+}

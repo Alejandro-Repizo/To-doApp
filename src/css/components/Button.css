@@ -1,0 +1,40 @@
+.btn {
+    width: 100%;
+    height: 35px;
+    background-color: var(--dark-blue-100);
+    border-radius: 5px;
+    border: none;
+    color: var(--dark-blue-600);
+    font: var(--button);
+    letter-spacing: 0.2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: .1s ease all;
+}
+
+.btn--create {
+    width: 40%;
+}
+
+.btn__text {
+    padding: 0 0 0 .5rem;
+}
+
+.btn--hide {
+    height: 50px;
+    margin: .7rem 0 0 0;
+    background-color: #7d90ca38;
+    transition: .3s ease all;
+}
+
+.btn--hide:active {
+    transform: translateY(1.9px);
+}
+
+.btn--hide:hover {
+    background-color: #7d90ca6e;
+}
